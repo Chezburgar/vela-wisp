@@ -1,0 +1,17 @@
+{
+  "name": "vela-wisp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WISP server for the Vela proxy",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "wisp-server-node": "1.1.7"
+  }
+}
